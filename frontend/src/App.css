@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  height: 100%;
+}
+
+.App-content {
+  width: 100%;
+  margin: 20px;
+  margin-left: 290px;
+
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+input {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  outline-color: #1D1D1D;
+  margin: 20px;
+}
+
+.title-principal {
+  margin-bottom: 20px;
+  color: #1D1D1D;
+}
+
+.box-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: rgb(232, 232, 232);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.code-content {
+  display: flex;
+  flex-direction: column;
+  background-color: #1D1D1D;
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.input-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.input-items {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+.css-component {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.MuiCardHeader-content {
+  text-align: initial;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 40px;
+}
+
+.top-menu {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 100vw;
+  height: 50px;
+  position: fixed;
+  background-color: #000000dc;
+  backdrop-filter: blur(12px);
+  z-index: 12;
+  padding: 0 20px
+}
+
+.login-menu {
+  width:30px;
+  height: 30px;
+  border-radius: 50%;
+  background-image: url('https://github.com/Gabrielrioo.png');
+  cursor: pointer;
+}
+
+.pro-sidebar {
+  position: fixed !important;
+}

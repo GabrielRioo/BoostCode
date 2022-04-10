@@ -1,0 +1,31 @@
+.simple-button {
+  width:auto;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: #262626;
+  color: #ffffff;
+  cursor: pointer;
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+.code-content > div {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.copy-button {
+  padding:5px;
+  background-color:transparent;
+  color: rgb(155, 155, 155);
+  border: 1px solid rgb(155, 155, 155);
+  border-radius: 6px;
+  cursor:pointer;
+}
+
+.copy-button:hover {
+  color: rgb(206, 206, 206);
+  border: 1px solid rgb(206, 206, 206);
+}
